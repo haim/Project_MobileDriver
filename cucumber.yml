@@ -1,0 +1,6 @@
+<%common="PLATFORM_NAME=Android DEVICE_NAME='Android Emulator' APP_ACTIVITY='com.capitalone.mobile.wallet.launch.SplashActivity' --tags ~@not_ready "%>
+default: PROFILE=Emulator PLATFORM_NAME=Android DEVICE_NAME="Android Emulator" APP_PACKAGE="com.capitalone.mobile.wallet.qa" APP_ACTIVITY="com.capitalone.mobile.wallet.launch.SplashActivity" --tags ~@not_ready
+device: PROFILE=Device PLATFORM_NAME=Android DEVICE_NAME="0A3C2BD116013003" APP_PACKAGE="com.capitalone.mobile.wallet.qa" APP_ACTIVITY="com.capitalone.mobile.wallet.launch.SplashActivity" --tags ~@not_ready
+int: <%=common%> PROFILE=intregion APP_PACKAGE="com.capitalone.mobile.wallet.int"
+
+

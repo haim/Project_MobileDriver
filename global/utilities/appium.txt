@@ -1,0 +1,10 @@
+[caps]
+platformName = "Android"
+deviceName = "N910VVRU1BOAF"
+app = "../Project_ONE/App_Builds/testing_app.apk"
+appPackage = "com.capitalone.mobile.wallet.qa"
+appActivity = "com.capitalone.mobile.wallet.launch.SplashActivity"
+
+[appium_lib]
+sauce_username = false
+sauce_access_key = false
